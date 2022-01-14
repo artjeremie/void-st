@@ -7,6 +7,12 @@
  */
 static char *font = "mono:pixelsize=20:antialias=true:autohint=true";
 static char *font2[] = { "Noto Color Emoji:pixelsize=16:antialias=true:autohint=true" };
+
+/* disable bold, italic and roman fonts globally */
+int disablebold = 1;
+int disableitalic = 1;
+int disableroman = 1;
+
 static int borderpx = 40;
 
 /*
