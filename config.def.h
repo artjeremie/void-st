@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=18:antialias=true:autohint=true";
-static char *font2[] = { "Noto Color Emoji:pixelsize=16:antialias=true:autohint=true" };
+static char *font = "mono:size=14:antialias=true:autohint=true";
+static char *font2[] = { "Noto Color Emoji:pixelsize=12:antialias=true:autohint=true" };
 
 /* disable bold, italic and roman fonts globally */
 int disablebold = 1;
