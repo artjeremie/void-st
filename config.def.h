@@ -103,24 +103,24 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     /* 8 normal colors */
-    "#1d2021", /* black   */
-    "#cc241d", /* red     */
-    "#98971a", /* green   */
-    "#d79921", /* yellow  */
-    "#458588", /* blue    */
-    "#b16286", /* magenta */
-    "#689d6a", /* cyan    */
-    "#a89984", /* white   */
+    "#32302f", /* black   */
+    "#ea6962", /* red     */
+    "#a9b665", /* green   */
+    "#e78a4e", /* yellow  */
+    "#7daea3", /* blue    */
+    "#d3869b", /* magenta */
+    "#89b482", /* cyan    */
+    "#d4be98", /* white   */
 
     /* 8 bright colors */
-    "#928374", /* black   */
-    "#fb4934", /* red     */
-    "#b8bb26", /* green   */
-    "#fabd2f", /* yellow  */
-    "#83a598", /* blue    */
+    "#32302f", /* black   */
+    "#ea6962", /* red     */
+    "#a9b665", /* green   */
+    "#e78a4e", /* yellow  */
+    "#7daea3", /* blue    */
     "#d3869b", /* magenta */
-    "#8ec07c", /* cyan    */
-    "#ebdbb2", /* white   */
+    "#89b482", /* cyan    */
+    "#d4be98", /* white   */
 
     [255] = 0,
 
@@ -128,7 +128,7 @@ static const char *colorname[] = {
     "#add8e6", /* 256 -> cursor */
     "#555555", /* 257 -> rev cursor*/
     "#1d2021", /* background */
-    "#ebdbb2", /* foreground */
+    "#d4be98", /* foreground */
 };
 
 
